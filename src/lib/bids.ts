@@ -90,3 +90,4 @@ export async function getHomeownerBids(homeownerUid: string): Promise<Bid[]> {
         new Date(b.submittedAt).getTime() - new Date(a.submittedAt).getTime()
     );
 }
+
