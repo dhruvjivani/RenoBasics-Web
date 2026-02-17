@@ -110,3 +110,4 @@ export async function getProjectPrivateDetails(
 
   return snapshot.val() as ProjectPrivateDetails;
 }
+
