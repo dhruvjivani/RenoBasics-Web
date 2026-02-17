@@ -282,3 +282,4 @@ export interface BidItem {
   description: string;
   cost: number;
 }
+
