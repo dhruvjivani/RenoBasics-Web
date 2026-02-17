@@ -52,3 +52,4 @@ export function validateConfirmPassword(password: string, confirmPassword: strin
   if (password !== confirmPassword) return { valid: false, error: "Passwords do not match." };
   return { valid: true };
 }
+
